@@ -32,7 +32,7 @@ Orig_ImSize = 320;
 
 %Trajectory delay correction in units of dwell time (i.e. shift acquisition
 %by 4 points to account for slow turn on of gradients. This may need to be
-%adjusted for a give sequence or scanner
+%adjusted for a given sequence or scanner
 traj = DataImport.traj_delay_correction(traj,4);
 
 %% Step 2: Identify coil elements closest to diaphragm and slice/dimension for image-based gating
